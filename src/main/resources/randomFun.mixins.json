@@ -1,0 +1,27 @@
+{
+  "required": true,
+  "package": "com.lightending.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "AnimalEntityMixin",
+    "BedBlockMixin",
+    "BlockMixin",
+    "BrushInvoker",
+    "BrushMixin",
+    "CakeBlockMixin",
+    "EggMixin",
+    "EnchantmentMixin",
+    "EntityInvoker",
+    "EntityMixin",
+    "LivingEntityInvoker",
+    "LivingEntityMixin",
+    "PlayerEntityAccessor",
+    "PlayerMixin",
+    "ThrownEntityMixin",
+    "ThrownItemEntityInvoker",
+    "VillagerMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+	}
+}
